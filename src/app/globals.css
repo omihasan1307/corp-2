@@ -16,7 +16,7 @@ body {
   transition: all 0.3s ease-in-out;
   font-size: 77px;
   line-height: 1;
-  fill: #f68214;
+  fill: #a6587c;
   color: rgb(0 0 0 / 60%);
   background: linear-gradient(18deg, #f05427 0%, #fdae04 100%);
   -webkit-background-clip: text;
@@ -37,6 +37,21 @@ body {
   box-shadow: inset 0px 50px 50px -10px rgba(14, 14, 14, 0.5); /* Upper white shadow */
 }
 
+.bgPic {
+  background-image: url("../../public/bg.png");
+  background-color: #ffffffaf;
+  background-blend-mode: overlay;
+  /* background-color: rgba(
+    255,
+    255,
+    255,
+    0.877
+  );  */
+  /* background-blend-mode: overlay;  */
+  background-position: bottom center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 .otherThanHome {
   background-image: url("../../public/breacrumb.jpg");
   background-color: #353434;
@@ -64,15 +79,23 @@ body {
   box-shadow: inset 0 0 10px rgba(161, 83, 83, 0.7);
 } */
 
-.graphSection {
-  background-image: url("../../public/cta-bg.jpg");
-  background-color: #464a72;
+.industrySection {
+  background-image: url("../../public/homeDet.jpg");
   background-position: center left;
   background-size: 150%;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  box-shadow: inset 0px 50px 50px -10px rgba(255, 255, 255, 0.5); /* Upper white shadow */
+  background-color: #353434;
+}
+.graphSection {
+  background-image: url("../../public/commonpic.jpg");
+  background-position: center left;
+  background-size: 150%;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #353434;
 }
 
 .underline-effect {

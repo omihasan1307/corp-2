@@ -1,12 +1,13 @@
-import Image from "next/image";
-import AboutPage from "./about/AboutPage";
 import HeroSection from "@/components/Home/HeroSection";
 import Navbar from "@/components/Navbar/Navbar";
 import MainLayout from "@/components/layout/MainLayout";
 import ServicesHomeSection from "@/components/Home/ServicesHomeSection";
 import BlogSection from "@/components/Home/BlogSection";
-import GraphSection from "@/components/Home/GraphSection";
 import TopNavbar from "@/components/Navbar/TopNavbar";
+import AboutFirstSection from "./about/AboutFirstSection";
+import ConsultSection from "@/components/shared/ConsultSection";
+import AboutSecondSection from "./about/AboutSecondSection";
+import IndustrySection from "@/components/Home/IndustrySection";
 
 export default function Home() {
   return (
@@ -21,9 +22,11 @@ export default function Home() {
           <ServicesHomeSection />
         </div>
       </div>
-      <div className="mt-52 ">
-        <AboutPage />
-        <GraphSection />
+      <div className="mt-72 ">
+        <AboutFirstSection />
+        <ConsultSection />
+        <AboutSecondSection />
+        <IndustrySection />
         <BlogSection />
       </div>
     </MainLayout>
